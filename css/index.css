@@ -1,0 +1,474 @@
+@charset "UTF-8";
+html, body {
+  font-size: 20px;
+  font-family: Microsoft Yahei,Helvetica,Arial;
+}
+
+ul, li, h1, h2, h3, h4, h5, h6, p, dl, dd, dt {
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+body {
+  background: #EEEEEE;
+}
+
+a {
+  text-decoration: none;
+}
+
+#search {
+  background-color: #ffffff;
+  width: 100%;
+  position: relative;
+  height: 44px;
+  border-bottom: solid 1px #e4e4e4;
+}
+
+#search .logo .category {
+  top: 0;
+  font-size: 11px;
+  text-align: center;
+  color: #4d525d;
+  width: 49px;
+  height: 44px;
+}
+
+#search .logo {
+  position: absolute;
+  left: 0;
+}
+
+#search .logo a {
+  display: block;
+  width: 49px;
+  height: 44px;
+  text-indent: -999rem;
+  background: url(../img/logo.png) center center no-repeat;
+  background-size: 30px 21px;
+}
+
+#search .search-box {
+  position: relative;
+  height: 44px;
+  margin: 0 53.5px 0 50px;
+  overflow: hidden;
+}
+
+#search .search-box .search {
+  display: block;
+  height: 30px;
+  margin: 7px auto;
+  position: relative;
+  background: #e4e4e6;
+  border-radius: 18px;
+}
+
+#search .search-box .search .text-box {
+  margin-right: 40px;
+  padding-left: 13px;
+}
+
+#search .category {
+  top: 0;
+  right: 0.5rem;
+  position: absolute;
+}
+
+#search .category a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  color: #4d525d;
+}
+
+#search .category a:before {
+  display: block;
+  width: 19.5px;
+  height: 18.5px;
+  background: url(../img/category.png) no-repeat center center;
+  background-size: contain;
+  content: "";
+  margin: 7px auto 0 auto;
+}
+
+#search .category a em {
+  display: block;
+  height: 11.5px;
+  line-height: 11.5px;
+  margin-top: 2px;
+  color: #4d525d;
+  font-size: 12px;
+}
+
+#search .search-box input.keyword {
+  width: 100%;
+  height: 20px;
+  padding: 15px 0;
+  line-height: 20px;
+  font-size: 14px;
+  color: #656a73;
+  background: #e4e4e6;
+  border: none;
+  outline: none;
+  display: block;
+}
+
+#search .search-box input.submit {
+  outline: none;
+  font-size: 0;
+  width: 35px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: #ff463c url(../img/search-btn.png) no-repeat center center;
+  background-size: 40%;
+  border: none;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.top-slider {
+  margin: .25rem .25rem 0 .25rem;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 140px;
+}
+
+.gn {
+  overflow: hidden;
+  margin: 0 .25rem;
+  background-color: #fff;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+.gn li {
+  display: inline-block;
+  width: 23%;
+  height: 3.35rem;
+  padding: .1rem 0;
+}
+
+.gn li img {
+  display: block;
+  margin: .25rem auto;
+  width: 1.85rem;
+  height: 1.85rem;
+}
+
+.gn li span {
+  display: block;
+  font-size: .55rem;
+  text-align: center;
+}
+
+.banner {
+  margin: .25rem .25rem 0 .25rem;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/*秒杀区*/
+#swiper .seckilling {
+  padding: 0 .3662rem;
+  margin-top: .3662rem;
+}
+
+#swiper .seckilling .seckilling-box {
+  background: #fff;
+}
+
+#swiper .seckilling-title {
+  height: 2.491rem;
+  line-height: 1.7rem;
+  padding: .732rem .732rem 0 .732rem;
+}
+
+#swiper .seckilling-title span {
+  display: block;
+  height: 1.319rem;
+  float: left;
+}
+
+#swiper .seckilling-title span.seckilling-name {
+  float: left;
+  margin-right: .9155rem;
+  font-size: 1.1rem;
+  color: #4d525d;
+  line-height: 1.2rem;
+}
+
+#swiper .seckilling-title span.seckilling-icon {
+  width: 1.099rem;
+  margin-right: .3662rem;
+  background: url(../img/seckilling-alarm.png) no-repeat center center;
+  background-size: 1.099rem 1.099rem;
+}
+
+#swiper .seckilling-title span.s_d {
+  display: inline-block;
+  width: .367rem;
+  height: 1.319rem;
+  margin-right: 0.073rem;
+  line-height: 1.19rem;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#swiper .seckilling-title span.s_t span {
+  width: .879rem;
+  margin-right: .05rem;
+  background: #31343a;
+  font-size: 0.95rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.3rem;
+  border-radius: .3rem;
+}
+
+#swiper .seckilling-con {
+  overflow: hidden;
+}
+
+#swiper .seckilling-con ul li {
+  float: left;
+  width: 32.655%;
+}
+
+#swiper .seckilling-con ul li a {
+  padding: 0 .29rem;
+  display: block;
+}
+
+#swiper .seckilling-con ul li a img {
+  vertical-align: middle;
+  display: block;
+  width: 100%;
+}
+
+#swiper .seckilling-con ul li .price {
+  background: #fff;
+  color: #fe435d;
+  padding: .0672rem 0 0.1344rem;
+  font-size: 0.032rem;
+}
+
+#swiper .seckilling-con ul li .price .rob {
+  font-size: .8rem;
+}
+
+#swiper .floor dl dt, #swiper .floor dl dd, #swiper .market ul li {
+  float: left;
+  display: block;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+#swiper .floor {
+  margin: .25rem .25rem 0 .25rem;
+  background-color: #fff;
+}
+
+#swiper .floor h2 {
+  position: relative;
+  overflow: hidden;
+  border-bottom: 1px solid #eee;
+}
+
+#swiper .floor h2 a {
+  display: block;
+  height: 2.49rem;
+  line-height: 2.49rem;
+}
+
+#swiper .floor h2 a.title {
+  color: #4a525d;
+  font-size: 1.09rem;
+  text-indent: 0.3662rem;
+}
+
+#swiper .floor h2 a.more {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 3.3rem;
+  font-size: .87rem;
+  color: #fe435d;
+  background: url(../img/more-arrow.png) 2.05rem center no-repeat;
+  background-size: .88rem;
+}
+
+#swiper .floor dl {
+  overflow: hidden;
+}
+
+#swiper .floor dl dd {
+  border-left: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+#swiper .floor dl a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#swiper .floor dl img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+#swiper .market ul li:nth-child(2n+1)::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-left: 1px solid #eee;
+}
+
+#swiper .market {
+  margin: .25rem .25rem 0 .25rem;
+  background-color: #fff;
+}
+
+#swiper .market h2 {
+  border-bottom: 1px solid #eee;
+}
+
+#swiper .market h2 .title {
+  display: block;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  color: #4d525d;
+  font-size: .75rem;
+  text-indent: .25rem;
+}
+
+#swiper .market ul {
+  overflow: hidden;
+}
+
+#swiper .market ul li {
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+#swiper .market ul li a {
+  display: block;
+  width: 100%;
+}
+
+#swiper .market ul li a img {
+  width: 100%;
+  height: auto;
+}
+
+/*推广商品*/
+/*app*/
+.app-download-wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.app-download-wrapper .close-app {
+  position: absolute;
+  right: 0.73rem;
+  top: 0.73rem;
+  display: inline-block;
+  width: 1.83rem;
+  height: 1.83rem;
+  background: url(../img/close-app-download.png) no-repeat center center;
+  background-size: 1.83rem 1.83rem;
+}
+
+.app-download-wrapper .app-half {
+  display: block;
+  float: left;
+  width: 50%;
+}
+
+.app-download-wrapper .app-half img {
+  width: 100%;
+  display: block;
+}
+
+/*footer*/
+footer {
+  overflow: hidden;
+  background: #fff;
+  width: 100%;
+  padding: 0 0 2.19rem;
+}
+
+.status-bar {
+  height: 3.22rem;
+  line-height: 3.22rem;
+  background: #fff;
+  overflow: hidden;
+  color: #4d525d;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  font-size: 1.02rem;
+}
+
+.status-bar a {
+  float: left;
+  display: inline-block;
+  margin-left: 1.4648rem;
+  color: #4a525d;
+  font-size: 1.1rem;
+}
+
+.status-bar a.top {
+  float: right;
+  padding: 0 0.58rem 0 1.4648rem;
+  background: transparent url(../img/goto-top-new.png) 0.29rem center no-repeat;
+  background-size: 0.69rem .84rem;
+  font-size: .88rem;
+  padding-left: 1.17rem;
+}
+
+.nav-bar {
+  margin: 0.3662rem 0.73rem;
+}
+
+.nav-bar p {
+  text-align: center;
+}
+
+.nav-bar p a {
+  font-size: .95rem;
+  padding: 0 .3662rem;
+  line-height: 1.9rem;
+  color: #323232;
+}
+
+.nav-bar p a.red {
+  color: #fe435d;
+}
+
+.copyright p {
+  color: #999;
+  text-align: center;
+  font-size: 0.88rem;
+}
